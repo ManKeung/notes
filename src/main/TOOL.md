@@ -160,7 +160,7 @@ registry=https://registry.npmjs.org/
 	
 + npm config list --> npm配置清单
 
-## [npm常用命令]('http://www.cnblogs.com/PeunZhang/p/5553574.html')
+## [npm常用命令](http://www.cnblogs.com/PeunZhang/p/5553574.html)
 
 命令 | 描述
 ---- | ----
