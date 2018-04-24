@@ -160,6 +160,27 @@ registry=https://registry.npmjs.org/
 	
 + npm config list --> npm配置清单
 
+## [npm常用命令]('http://www.cnblogs.com/PeunZhang/p/5553574.html')
+
+命令 | 描述
+---- | ----
+npm root -g | 查看node.js全局的安装路径
+npm root | 查看当前npm包的安装路径
+npm cache clean | 清除缓存
+npm ls | 查看安装的模块及依赖
+npm ls webpack | 查看webpack（某个）安装模块
+npm ls -g | 查看全局安装的模块依赖
+npm install xxx --save-dev | 安装模块到项目依赖
+npm i webpack@<version> -D | 安装摸个版本的模块
+npm uninstall xxx -g | 卸载全局模块 --save-dev(-D) --save(-S)
+npm update xxx | 更新模块
+npm view webpack versions | 查看webpack（某个）版本
+npm view webpack dependencies | 查看webpack（某个）模块的依赖关系
+npm view webpack repository.url | 查看模块的源文件地址
+npm view npm contributors | 产看模块的贡献值，包含邮箱地址
+npm init | 会自动生成一个package.json文件
+webpack -h | 查看版本
+
 ### [CNPM](http://npm.taobao.org/ "淘宝镜像")
 
 + 淘宝 NPM 镜像
